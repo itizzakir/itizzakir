@@ -5,7 +5,7 @@ Email Me 👉 ✉️ **itizzakir@gmail.com** For Collaboration/Project or Anythi
 
 - 🔭 **I’m currently working on:** Food Delivery App
 - 🌱 **I’m currently learning:** Java in Depth
-- 👯 **I’m looking to collaborate on:** Food Delivery App
+- 👯 **I’m looking to collaborate on:** Food Delivery App.
 - 🤔 **Curiosity is your greatest skill keep it alive.**
 - 📫 **How to reach me:** itizzaakir@gmail.com
 - 😄 **Pronouns:** Zaky
