@@ -9,7 +9,7 @@ Email Me 👉 ✉️ **itizzakir@gmail.com** For Collaboration/Project or Anythi
 - 🤔 **Curiosity is your greatest skill keep it alive.**
 - 📫 **How to reach me:** itizzaakir@gmail.com
 - 😄 **Pronouns:** Zaky.
-- ⚡ **Fun fact:** Programmers don’t sleep; they just debug in their dreams 🌙💭.
+- ⚡ **Fun fact:** Programmers don’t sleep; they just debug in their dreams🌙💭.
 
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=itizzakir&theme=radical&no-frame=false&no-bg=true&margin-w=4)
