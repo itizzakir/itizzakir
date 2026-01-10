@@ -8,7 +8,7 @@ Email Me 👉 ✉️ **itizzakir@gmail.com** For Collaboration/Project or Anythi
 - 👯 **I’m looking to collaborate on:** Food Delivery App.
 - 🤔 **Curiosity is your greatest skill keep it alive.**
 - 📫 **How to reach me:** itizzaakir@gmail.com
-- 😄 **Pronouns:** Zaky.
+- 😄 **Pronouns:** Zaky. 
 - ⚡ **Fun fact:** Programmers don’t sleep; they just debug in their dreams🌙💭.
 
 ## 🏆 GitHub Trophies
