@@ -30,7 +30,7 @@
 
 **A passionate Java Full Stack Developer from India 🇮🇳**
 
-| | |
+| Quick Facts | |
 |---|---|
 | 🔭 **Working on** | Food Delivery App 🍔 |
 | 🌱 **Learning** | Java in depth ☕ |
@@ -51,13 +51,21 @@
 
 ```java
 public class ZakirHussain extends FullStackDeveloper {
-    String   role     = "Java Full Stack Developer";
-    String[] backend  = {"Java", "Spring Boot", "Hibernate", "MySQL", "Tomcat", "Maven"};
-    String[] frontend = {"React", "Redux", "JavaScript", "Tailwind CSS", "Bootstrap", "Thymeleaf"};
-    String[] tools    = {"Git", "AWS", "Node.js", "npm", "JWT"};
-    String   building = "Food Delivery App 🍔";
+    String role = "Java Full Stack Developer";
 
-    public void life() {
+    String[] backend = {
+        "Java", "Spring Boot", "Hibernate",
+        "MySQL", "Tomcat", "Maven"
+    };
+    String[] frontend = {
+        "React", "Redux", "JavaScript",
+        "Tailwind CSS", "Bootstrap", "Thymeleaf"
+    };
+    String[] tools = {"Git", "AWS", "Node.js", "npm", "JWT"};
+
+    String building = "Food Delivery App 🍔";
+
+    void life() {
         while (alive) { eat(); sleep(); code(); repeat(); }
     }
 }
@@ -73,7 +81,7 @@ public class ZakirHussain extends FullStackDeveloper {
 
 <details open>
 <summary><b>☕ Backend</b></summary>
-<p align="center"><img src="https://skillicons.dev/icons?i=java,spring,hibernate,mysql,maven,tomcat&theme=dark" alt="Backend" /></p>
+<p align="center"><img src="https://skillicons.dev/icons?i=java,spring,hibernate,mysql,maven&theme=dark" alt="Backend" /></p>
 </details>
 
 <details open>
@@ -97,16 +105,7 @@ public class ZakirHussain extends FullStackDeveloper {
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <img height="175" src="https://github-readme-stats.vercel.app/api?username=itizzakir&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=ED8B00&icon_color=6DB33F" alt="GitHub Stats" />
-  <img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=itizzakir&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=ED8B00" alt="Top Languages" />
-</p>
-
-<p align="center">
   <img src="https://streak-stats.demolab.com?user=itizzakir&theme=tokyonight&hide_border=true&background=0d1117&ring=ED8B00&fire=ED8B00&currStreakLabel=6DB33F" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=itizzakir&bg_color=0d1117&color=ffffff&line=ED8B00&point=6DB33F&area=true&hide_border=true&custom_title=Contribution%20Graph" alt="Contribution Graph" />
 </p>
 
 ### 🐍 Contribution Snake
@@ -117,18 +116,6 @@ public class ZakirHussain extends FullStackDeveloper {
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/itizzakir/itizzakir/output/github-contribution-grid-snake.svg" />
     <img alt="Contribution snake" src="https://raw.githubusercontent.com/itizzakir/itizzakir/output/github-contribution-grid-snake-dark.svg" width="100%" />
   </picture>
-</p>
-
-### 🏆 Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=itizzakir&theme=radical&no-frame=true&no-bg=true&margin-w=6&row=1&column=7" alt="Trophies" />
-</p>
-
-### 🔝 Top Contributed Repos
-
-<p align="center">
-  <img src="https://github-contributor-stats.vercel.app/api?username=itizzakir&limit=5&theme=tokyonight&combine_all_yearly_contributions=true&hide_border=true" alt="Top Contributed Repos" />
 </p>
 
 ### ✍️ Random Dev Quote
