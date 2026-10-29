@@ -36,7 +36,6 @@
 | 💬 **Ask me about** | Java · Spring Boot · React · MySQL |
 | 📫 **Reach me** | [itizzakir@gmail.com](mailto:itizzakir@gmail.com) |
 | 😄 **Call me** | Zaky |
-| ⚡ **Fun fact** | Programmers don't sleep; they just debug in their dreams 🌙💭 |
 
 > 🤔 *Curiosity is your greatest skill — keep it alive.*
 
@@ -49,6 +48,10 @@
 
 <p align="center">
   <img src="assets/food-app.svg" alt="Now building: Food Delivery App" width="100%" />
+</p>
+
+<p align="center">
+  <img src="assets/funfact.svg" alt="Fun fact" width="100%" />
 </p>
 
 <img src="assets/divider.svg" width="100%" alt="" />
@@ -84,6 +87,10 @@
   <img src="assets/skills.svg" alt="Skill power levels" width="100%" />
 </p>
 
+<p align="center">
+  <img src="assets/orbit.svg" alt="Orbiting tech stack" width="100%" />
+</p>
+
 <img src="assets/divider.svg" width="100%" alt="" />
 
 ## 📊 GitHub Analytics
@@ -102,15 +109,19 @@
   </picture>
 </p>
 
-### ✍️ Random Dev Quote
+### ✍️ Dev Quotes
 
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Dev Quote" />
+  <img src="assets/quotes.svg" alt="Dev Quotes" width="100%" />
 </p>
 
 <img src="assets/divider.svg" width="100%" alt="" />
 
 ## 🌐 Let's Connect
+
+<p align="center">
+  <a href="mailto:itizzakir@gmail.com"><img src="assets/contact.svg" alt="Email me" width="100%" /></a>
+</p>
 
 <p align="center">
   <a href="https://linkedin.com/in/itizzakir"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>

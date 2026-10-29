@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="150" viewBox="0 0 900 150">
+<defs><linearGradient id="cg" x1="0" x2="1"><stop offset="0" stop-color="#1b1408"/><stop offset="1" stop-color="#08202c"/></linearGradient>
+<linearGradient id="bt" x1="0" x2="1"><stop offset="0" stop-color="#ED8B00"/><stop offset="1" stop-color="#6DB33F"/></linearGradient></defs>
+<style>.c1{font:800 22px 'Segoe UI',Arial,sans-serif;fill:#e6edf3}.c2{font:600 15px 'Segoe UI',Arial,sans-serif;fill:#8b949e}.bt{font:800 16px 'Segoe UI',Arial,sans-serif;fill:#0d1117}
+@keyframes rp{0%{r:24;opacity:.7}100%{r:62;opacity:0}}@keyframes sw{0%,100%{transform:rotate(-8deg)}50%{transform:rotate(8deg)}}@keyframes pb{0%,100%{transform:scale(1)}50%{transform:scale(1.05)}}</style>
+<rect width="900" height="150" rx="14" fill="url(#cg)" stroke="#30363d"/>
+<g transform="translate(100,75)"><circle r="24" fill="none" stroke="#ED8B00" stroke-width="2" style="animation:rp 2.4s ease-out infinite"/><circle r="24" fill="none" stroke="#6DB33F" stroke-width="2" style="animation:rp 2.4s ease-out infinite;animation-delay:.8s"/><circle r="24" fill="none" stroke="#0077B5" stroke-width="2" style="animation:rp 2.4s ease-out infinite;animation-delay:1.6s"/>
+<text text-anchor="middle" y="13" font-size="38" style="animation:sw 2s ease-in-out infinite;transform-origin:0 0">✉️</text></g>
+<text x="190" y="62" class="c1">Let's build something awesome together 🚀</text>
+<text x="190" y="92" class="c2">Open for collaboration, projects and anything else — say hi!</text>
+<g transform="translate(800,75)"><g style="animation:pb 1.8s ease-in-out infinite;transform-origin:0 0"><rect x="-70" y="-22" width="140" height="44" rx="22" fill="url(#bt)"/><text class="bt" text-anchor="middle" y="6">Email Me 👋</text></g></g>
+</svg>

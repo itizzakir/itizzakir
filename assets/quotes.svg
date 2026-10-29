@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="140" viewBox="0 0 900 140">
+<defs><linearGradient id="qg" x1="0" x2="1"><stop offset="0" stop-color="#ED8B00"/><stop offset=".5" stop-color="#6DB33F"/><stop offset="1" stop-color="#0077B5"/></linearGradient></defs>
+<style>.qt{font:italic 600 21px Georgia,serif;fill:#e6edf3}.qa{font:700 15px 'Segoe UI',Arial,sans-serif}
+@keyframes qc{0%{opacity:0;transform:translateY(10px)}3%,20%{opacity:1;transform:none}24%,100%{opacity:0;transform:translateY(-10px)}}
+@keyframes sh{0%{stroke-dashoffset:0}100%{stroke-dashoffset:-60}}</style>
+<rect width="900" height="140" rx="14" fill="#0d1117"/>
+<rect x="1.5" y="1.5" width="897" height="137" rx="13" fill="none" stroke="url(#qg)" stroke-width="2" stroke-dasharray="40 20" style="animation:sh 2s linear infinite"/>
+<text x="36" y="58" font-size="60" fill="#6DB33F" opacity=".35" font-family="Georgia">“</text>
+<g style="animation:qc 20s infinite;animation-delay:0s;opacity:0"><text x="450" y="70" text-anchor="middle" class="qt">“Talk is cheap. Show me the code.”</text><text x="450" y="104" text-anchor="middle" class="qa" fill="#ED8B00">— Linus Torvalds</text></g><g style="animation:qc 20s infinite;animation-delay:5s;opacity:0"><text x="450" y="70" text-anchor="middle" class="qt">“First, solve the problem. Then, write the code.”</text><text x="450" y="104" text-anchor="middle" class="qa" fill="#6DB33F">— John Johnson</text></g><g style="animation:qc 20s infinite;animation-delay:10s;opacity:0"><text x="450" y="70" text-anchor="middle" class="qt">“Code is like humor. When you have to explain it, it’s bad.”</text><text x="450" y="104" text-anchor="middle" class="qa" fill="#0077B5">— Cory House</text></g><g style="animation:qc 20s infinite;animation-delay:15s;opacity:0"><text x="450" y="70" text-anchor="middle" class="qt">“Simplicity is the soul of efficiency.”</text><text x="450" y="104" text-anchor="middle" class="qa" fill="#DB2777">— Austin Freeman</text></g>
+</svg>
