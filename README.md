@@ -1,6 +1,6 @@
 <!-- ====================== HEADER ====================== -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ED8B00,50:6DB33F,100:0077B5&height=140&section=header&animation=twinkling" alt="" width="100%" />
+  <img src="assets/wave-top.svg" alt="" width="100%" />
 </p>
 
 <p align="center">
@@ -8,9 +8,7 @@
 </p>
 
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=6DB33F&center=true&vCenter=true&multiline=false&repeat=true&width=620&height=40&lines=%24+whoami+%E2%86%92+Zaky+%F0%9F%9A%80;%24+java+-version+%E2%86%92+passionate+%E2%98%95;%24+npm+start+%E2%86%92+building+cool+stuff+%E2%9A%A1;%24+git+commit+-m+%22never+stop+learning%22" alt="Typing SVG" />
-  </a>
+  <img src="assets/terminal.svg" alt="Animated terminal" width="100%" />
 </p>
 
 <p align="center">
@@ -20,7 +18,7 @@
   <a href="mailto:itizzakir@gmail.com"><img src="https://img.shields.io/badge/Open%20to-Collaborate-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Open to collaborate" /></a>
 </p>
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" alt="" />
+<img src="assets/divider.svg" width="100%" alt="" />
 
 ## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28" alt="wave"> About Me
 
@@ -49,7 +47,11 @@
 </tr>
 </table>
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" alt="" />
+<p align="center">
+  <img src="assets/food-app.svg" alt="Now building: Food Delivery App" width="100%" />
+</p>
+
+<img src="assets/divider.svg" width="100%" alt="" />
 
 ## 🛠️ Tech Stack
 
@@ -78,7 +80,11 @@
   <img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white" alt="React Router" />
 </p>
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" alt="" />
+<p align="center">
+  <img src="assets/skills.svg" alt="Skill power levels" width="100%" />
+</p>
+
+<img src="assets/divider.svg" width="100%" alt="" />
 
 ## 📊 GitHub Analytics
 
@@ -102,7 +108,7 @@
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Dev Quote" />
 </p>
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" alt="" />
+<img src="assets/divider.svg" width="100%" alt="" />
 
 ## 🌐 Let's Connect
 
@@ -121,5 +127,5 @@
 
 <!-- ====================== FOOTER ====================== -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0077B5,50:6DB33F,100:ED8B00&height=120&section=footer&animation=twinkling" alt="" width="100%" />
+  <img src="assets/wave-bottom.svg" alt="" width="100%" />
 </p>
