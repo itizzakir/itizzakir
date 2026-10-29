@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="470" viewBox="0 0 900 470">
+<defs>
+<linearGradient id="ab" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#141a24"/></linearGradient>
+<linearGradient id="rg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ED8B00"/><stop offset=".5" stop-color="#6DB33F"/><stop offset="1" stop-color="#0077B5"/></linearGradient>
+<linearGradient id="tx" x1="0" x2="1"><stop offset="0" stop-color="#ED8B00"/><stop offset="1" stop-color="#0077B5"/></linearGradient>
+<filter id="gw" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10"/></filter>
+</defs>
+<style>
+.lb{font:800 13px 'Segoe UI',Arial,sans-serif;letter-spacing:2px}.vl{font:700 21px 'Segoe UI',Arial,sans-serif;fill:#e6edf3}
+.ini{font:800 58px 'Segoe UI',Arial,sans-serif;fill:url(#tx)}.nm{font:800 26px 'Segoe UI',Arial,sans-serif;fill:#e6edf3}.rl{font:600 15px 'Segoe UI',Arial,sans-serif;fill:#8b949e}
+.st{font:700 14px 'Segoe UI',Arial,sans-serif;fill:#6DB33F}
+@keyframes r0{0%,3%{opacity:0;transform:translateX(60px)}7%,90%{opacity:1;transform:none}96%,100%{opacity:0;transform:translateX(-30px)}}@keyframes r1{0%,8%{opacity:0;transform:translateX(60px)}12%,90%{opacity:1;transform:none}96%,100%{opacity:0;transform:translateX(-30px)}}@keyframes r2{0%,13%{opacity:0;transform:translateX(60px)}17%,90%{opacity:1;transform:none}96%,100%{opacity:0;transform:translateX(-30px)}}@keyframes r3{0%,18%{opacity:0;transform:translateX(60px)}22%,90%{opacity:1;transform:none}96%,100%{opacity:0;transform:translateX(-30px)}}@keyframes r4{0%,23%{opacity:0;transform:translateX(60px)}27%,90%{opacity:1;transform:none}96%,100%{opacity:0;transform:translateX(-30px)}}@keyframes r5{0%,28%{opacity:0;transform:translateX(60px)}32%,90%{opacity:1;transform:none}96%,100%{opacity:0;transform:translateX(-30px)}}
+@keyframes fl{0%{transform:translateY(0);opacity:0}15%{opacity:.5}100%{transform:translateY(-480px);opacity:0}}
+@keyframes ps{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.35;transform:scale(1.5)}}
+@keyframes br{0%,100%{transform:scale(1)}50%{transform:scale(1.04)}}
+</style>
+<rect width="900" height="470" rx="18" fill="url(#ab)" stroke="#30363d"/>
+<circle cx="773" cy="470" r="7.6" fill="#ED8B00" opacity="0" style="animation:fl 9.951540156078408s linear infinite;animation-delay:-3.083234308534884s"/><circle cx="542" cy="470" r="3.6" fill="#6DB33F" opacity="0" style="animation:fl 8.721153553400654s linear infinite;animation-delay:-5.511816261991044s"/><circle cx="290" cy="470" r="4.9" fill="#0077B5" opacity="0" style="animation:fl 15.194919216053677s linear infinite;animation-delay:-5.494421804876765s"/><circle cx="295" cy="470" r="9.8" fill="#ED8B00" opacity="0" style="animation:fl 13.244645409329678s linear infinite;animation-delay:-5.599769771215506s"/><circle cx="391" cy="470" r="5.8" fill="#6DB33F" opacity="0" style="animation:fl 10.891488347224367s linear infinite;animation-delay:-4.040242493865662s"/><circle cx="423" cy="470" r="6.0" fill="#0077B5" opacity="0" style="animation:fl 15.570812883539475s linear infinite;animation-delay:-6.193150279999827s"/><circle cx="742" cy="470" r="7.5" fill="#ED8B00" opacity="0" style="animation:fl 12.107771110484464s linear infinite;animation-delay:-7.670910989167169s"/><circle cx="791" cy="470" r="5.3" fill="#6DB33F" opacity="0" style="animation:fl 9.40095522302363s linear infinite;animation-delay:-5.798257699236274s"/><circle cx="143" cy="470" r="7.3" fill="#0077B5" opacity="0" style="animation:fl 8.5264116480339s linear infinite;animation-delay:-10.586359226843342s"/><circle cx="346" cy="470" r="6.9" fill="#ED8B00" opacity="0" style="animation:fl 13.51595045308568s linear infinite;animation-delay:-5.352050726709422s"/><circle cx="94" cy="470" r="10.0" fill="#6DB33F" opacity="0" style="animation:fl 13.056122240301193s linear infinite;animation-delay:-4.8635509100568015s"/><circle cx="744" cy="470" r="9.1" fill="#0077B5" opacity="0" style="animation:fl 15.163996421484626s linear infinite;animation-delay:-7.619082776916912s"/><circle cx="274" cy="470" r="7.0" fill="#ED8B00" opacity="0" style="animation:fl 14.445490150377736s linear infinite;animation-delay:-5.034543161076726s"/><circle cx="76" cy="470" r="9.5" fill="#6DB33F" opacity="0" style="animation:fl 9.446021506169927s linear infinite;animation-delay:-4.639163612999255s"/>
+<g transform="translate(150,170)">
+ <circle r="92" fill="url(#rg)" filter="url(#gw)" opacity=".5"><animate attributeName="opacity" values=".25;.6;.25" dur="3s" repeatCount="indefinite"/></circle>
+ <g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="8s" repeatCount="indefinite"/><circle r="84" fill="none" stroke="url(#rg)" stroke-width="5" stroke-dasharray="170 90" stroke-linecap="round"/></g>
+ <g><animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="14s" repeatCount="indefinite"/><circle r="97" fill="none" stroke="#30363d" stroke-width="2" stroke-dasharray="3 9"/><circle cx="97" r="6" fill="#6DB33F"/><circle cx="-97" r="5" fill="#ED8B00"/></g>
+ <circle r="72" fill="#0d1117"/>
+ <g style="animation:br 3s ease-in-out infinite;transform-origin:0 0"><text class="ini" text-anchor="middle" y="20">ZH</text></g>
+</g>
+<text x="150" y="304" text-anchor="middle" class="nm">Md Zakir Hussain</text>
+<text x="150" y="330" text-anchor="middle" class="rl">Java Full Stack Developer · 🇮🇳 India</text>
+<g transform="translate(150,370)"><rect x="-100" y="-18" width="200" height="36" rx="18" fill="#6DB33F" fill-opacity=".14" stroke="#6DB33F" stroke-opacity=".6"/>
+<circle cx="-72" r="6" fill="#6DB33F" style="animation:ps 1.6s ease-in-out infinite;transform-origin:-72px 0"/><text x="8" y="5" text-anchor="middle" class="st">Open to collaborate</text></g>
+<text x="150" y="425" text-anchor="middle" class="rl" font-style="italic">“Curiosity is your greatest skill.”</text>
+<g transform="translate(300,46)"><g style="animation:r0 18s cubic-bezier(.2,.8,.2,1) infinite">
+<rect width="560" height="58" rx="16" fill="#161b22" stroke="#ED8B00" stroke-opacity=".5"/><rect width="6" height="58" rx="3" fill="#ED8B00"/>
+<rect x="16" y="9" width="40" height="40" rx="12" fill="#ED8B00" fill-opacity=".18"/><text x="36" y="37" text-anchor="middle" font-size="22">🔭</text>
+<text x="72" y="23" class="lb" fill="#ED8B00">WORKING ON</text><text x="72" y="46" class="vl">Food Delivery App 🍔</text></g></g><g transform="translate(300,116)"><g style="animation:r1 18s cubic-bezier(.2,.8,.2,1) infinite">
+<rect width="560" height="58" rx="16" fill="#161b22" stroke="#6DB33F" stroke-opacity=".5"/><rect width="6" height="58" rx="3" fill="#6DB33F"/>
+<rect x="16" y="9" width="40" height="40" rx="12" fill="#6DB33F" fill-opacity=".18"/><text x="36" y="37" text-anchor="middle" font-size="22">🌱</text>
+<text x="72" y="23" class="lb" fill="#6DB33F">LEARNING</text><text x="72" y="46" class="vl">Java in depth ☕</text></g></g><g transform="translate(300,186)"><g style="animation:r2 18s cubic-bezier(.2,.8,.2,1) infinite">
+<rect width="560" height="58" rx="16" fill="#161b22" stroke="#0077B5" stroke-opacity=".5"/><rect width="6" height="58" rx="3" fill="#0077B5"/>
+<rect x="16" y="9" width="40" height="40" rx="12" fill="#0077B5" fill-opacity=".18"/><text x="36" y="37" text-anchor="middle" font-size="22">👯</text>
+<text x="72" y="23" class="lb" fill="#0077B5">COLLABORATING ON</text><text x="72" y="46" class="vl">Food Delivery App</text></g></g><g transform="translate(300,256)"><g style="animation:r3 18s cubic-bezier(.2,.8,.2,1) infinite">
+<rect width="560" height="58" rx="16" fill="#161b22" stroke="#DB2777" stroke-opacity=".5"/><rect width="6" height="58" rx="3" fill="#DB2777"/>
+<rect x="16" y="9" width="40" height="40" rx="12" fill="#DB2777" fill-opacity=".18"/><text x="36" y="37" text-anchor="middle" font-size="22">💬</text>
+<text x="72" y="23" class="lb" fill="#DB2777">ASK ME ABOUT</text><text x="72" y="46" class="vl">Java · Spring · React · MySQL</text></g></g><g transform="translate(300,326)"><g style="animation:r4 18s cubic-bezier(.2,.8,.2,1) infinite">
+<rect width="560" height="58" rx="16" fill="#161b22" stroke="#149ECA" stroke-opacity=".5"/><rect width="6" height="58" rx="3" fill="#149ECA"/>
+<rect x="16" y="9" width="40" height="40" rx="12" fill="#149ECA" fill-opacity=".18"/><text x="36" y="37" text-anchor="middle" font-size="22">📫</text>
+<text x="72" y="23" class="lb" fill="#149ECA">REACH ME</text><text x="72" y="46" class="vl">itizzakir@gmail.com</text></g></g><g transform="translate(300,396)"><g style="animation:r5 18s cubic-bezier(.2,.8,.2,1) infinite">
+<rect width="560" height="58" rx="16" fill="#161b22" stroke="#C9A800" stroke-opacity=".5"/><rect width="6" height="58" rx="3" fill="#C9A800"/>
+<rect x="16" y="9" width="40" height="40" rx="12" fill="#C9A800" fill-opacity=".18"/><text x="36" y="37" text-anchor="middle" font-size="22">😄</text>
+<text x="72" y="23" class="lb" fill="#C9A800">CALL ME</text><text x="72" y="46" class="vl">Zaky</text></g></g>
+</svg>

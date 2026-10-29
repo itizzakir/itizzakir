@@ -22,29 +22,11 @@
 
 ## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28" alt="wave"> About Me
 
-<table>
-<tr>
-<td width="62%" valign="top">
+<p align="center">
+  <img src="assets/about.svg" alt="About Md Zakir Hussain" width="100%" />
+</p>
 
-**A passionate Java Full Stack Developer from India 🇮🇳**
-
-| Quick Facts | |
-|---|---|
-| 🔭 **Working on** | Food Delivery App 🍔 |
-| 🌱 **Learning** | Java in depth ☕ |
-| 👯 **Collaborating on** | Food Delivery App |
-| 💬 **Ask me about** | Java · Spring Boot · React · MySQL |
-| 📫 **Reach me** | [itizzakir@gmail.com](mailto:itizzakir@gmail.com) |
-| 😄 **Call me** | Zaky |
-
-> 🤔 *Curiosity is your greatest skill — keep it alive.*
-
-</td>
-<td width="38%" align="center">
-  <img src="https://raw.githubusercontent.com/SamirPaulb/SamirPaulb/main/assets/images/coding.gif" width="100%" alt="Coding animation" />
-</td>
-</tr>
-</table>
+<p align="center"><b>A passionate Java Full Stack Developer from India 🇮🇳</b><br/><i>🤔 Curiosity is your greatest skill — keep it alive.</i></p>
 
 <p align="center">
   <img src="assets/food-app.svg" alt="Now building: Food Delivery App" width="100%" />
