@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#161b22"/></linearGradient>
+<linearGradient id="nm" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ED8B00"><animate attributeName="stop-color" values="#ED8B00;#6DB33F;#0077B5;#ED8B00" dur="6s" repeatCount="indefinite"/></stop><stop offset="1" stop-color="#0077B5"><animate attributeName="stop-color" values="#0077B5;#ED8B00;#6DB33F;#0077B5" dur="6s" repeatCount="indefinite"/></stop></linearGradient>
+<filter id="blur" filterUnits="userSpaceOnUse" x="-100" y="-100" width="1100" height="460"><feGaussianBlur stdDeviation="40"/></filter><clipPath id="r"><rect width="900" height="260" rx="14"/></clipPath>
+</defs>
+<style>
+.name{font:800 54px 'Segoe UI',Arial,sans-serif;fill:url(#nm);animation:in 1.4s ease-out both}
+.sub{font:600 22px 'Courier New',monospace;fill:#e6edf3}
+.hi{font:600 18px 'Segoe UI',Arial,sans-serif;fill:#8b949e;animation:in 1s ease-out both}
+.code{font:13px 'Courier New',monospace;fill:#30363d}
+@keyframes in{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}
+@keyframes cyc{0%{opacity:0;transform:translateY(8px)}4%,22%{opacity:1;transform:none}26%,100%{opacity:0;transform:translateY(-8px)}}
+@keyframes rise{from{transform:translateY(0);opacity:0}15%{opacity:.9}to{transform:translateY(-300px);opacity:0}}
+@keyframes blink{50%{opacity:0}}
+</style>
+<rect width="900" height="260" fill="url(#bg)" rx="14"/>
+<g clip-path="url(#r)"><g filter="url(#blur)" opacity=".5">
+<circle r="70" fill="#ED8B00"><animateMotion dur="14s" repeatCount="indefinite" path="M100,60 C300,200 500,0 700,120 S100,60 100,60"/></circle>
+<circle r="80" fill="#6DB33F"><animateMotion dur="17s" repeatCount="indefinite" path="M450,200 C650,40 800,220 300,80 S450,200 450,200"/></circle>
+<circle r="70" fill="#0077B5"><animateMotion dur="20s" repeatCount="indefinite" path="M800,60 C600,220 300,40 150,180 S800,60 800,60"/></circle>
+</g></g>
+<text x="30" y="270" class="code" style="animation:rise 9s linear infinite;animation-delay:0s">public class Zakir {</text><text x="142" y="270" class="code" style="animation:rise 11s linear infinite;animation-delay:-1.3s">@SpringBootApplication</text><text x="254" y="270" class="code" style="animation:rise 13s linear infinite;animation-delay:-2.6s">useState(0)</text><text x="366" y="270" class="code" style="animation:rise 9s linear infinite;animation-delay:-3.9000000000000004s">SELECT * FROM food;</text><text x="478" y="270" class="code" style="animation:rise 11s linear infinite;animation-delay:-5.2s">mvn clean install</text><text x="590" y="270" class="code" style="animation:rise 13s linear infinite;animation-delay:-6.5s">git push origin main</text><text x="702" y="270" class="code" style="animation:rise 9s linear infinite;animation-delay:-7.800000000000001s">@RestController</text><text x="814" y="270" class="code" style="animation:rise 11s linear infinite;animation-delay:-9.1s">&lt;App /></text>
+<text x="450" y="64" text-anchor="middle" class="hi">👋 Hi there, I'm</text>
+<text x="450" y="120" text-anchor="middle" class="name">Md Zakir Hussain</text>
+<text x="450" y="178" text-anchor="middle" class="sub" style="animation:cyc 12s infinite;animation-delay:0s;opacity:0">Java Full Stack Developer ☕</text><text x="450" y="178" text-anchor="middle" class="sub" style="animation:cyc 12s infinite;animation-delay:3s;opacity:0">Spring Boot · Hibernate · MySQL 🌱</text><text x="450" y="178" text-anchor="middle" class="sub" style="animation:cyc 12s infinite;animation-delay:6s;opacity:0">React · Redux · Tailwind ⚛️</text><text x="450" y="178" text-anchor="middle" class="sub" style="animation:cyc 12s infinite;animation-delay:9s;opacity:0">Building a Food Delivery App 🍔</text>
+<rect x="60" y="212" width="780" height="3" rx="2" fill="url(#nm)"><animate attributeName="width" values="0;780;780;0" keyTimes="0;.4;.8;1" dur="6s" repeatCount="indefinite"/></rect>
+</svg>

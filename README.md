@@ -1,44 +1,160 @@
-# 💫 Hi 👋, I'm Md Zakir Hussain
-**A passionate Java Full Stack Developer || Software Developer || Java Developer from India**
+<!-- ====================== HEADER ====================== -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ED8B00,50:6DB33F,100:0077B5&height=140&section=header&animation=twinkling" alt="" width="100%" />
+</p>
 
-Email Me 👉 ✉️ **itizzakir@gmail.com** For Collaboration/Project or Anything Else. 😊😊
+<p align="center">
+  <img src="assets/banner.svg" alt="Md Zakir Hussain - Java Full Stack Developer" width="100%" />
+</p>
 
-- 🔭 **I’m currently working on:** Food Delivery App.
-- 🌱 **I’m currently learning:** Java in Depth. 
-- 👯 **I’m looking to collaborate on:** Food Delivery App.
-- 🤔 **Curiosity is your greatest skill keep it alive.**
-- 📫 **How to reach me:** itizzaakir@gmail.com
-- 😄 **Pronouns:** Zaky.
-- ⚡ **Fun fact:** Programmers don’t sleep; they just debug in their dreams🌙💭.
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=6DB33F&center=true&vCenter=true&multiline=false&repeat=true&width=620&height=40&lines=%24+whoami+%E2%86%92+Zaky+%F0%9F%9A%80;%24+java+-version+%E2%86%92+passionate+%E2%98%95;%24+npm+start+%E2%86%92+building+cool+stuff+%E2%9A%A1;%24+git+commit+-m+%22never+stop+learning%22" alt="Typing SVG" />
+  </a>
+</p>
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=itizzakir&theme=radical&no-frame=false&no-bg=true&margin-w=4)
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=itizzakir&label=Profile%20Views&color=ED8B00&style=for-the-badge" alt="Profile views" />
+  <a href="https://github.com/itizzakir?tab=followers"><img src="https://img.shields.io/github/followers/itizzakir?label=Followers&style=for-the-badge&color=6DB33F&logo=github" alt="Followers" /></a>
+  <a href="https://github.com/itizzakir?tab=repositories"><img src="https://img.shields.io/github/stars/itizzakir?label=Stars&style=for-the-badge&color=0077B5&logo=github" alt="Stars" /></a>
+  <a href="mailto:itizzakir@gmail.com"><img src="https://img.shields.io/badge/Open%20to-Collaborate-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Open to collaborate" /></a>
+</p>
 
-## 🌐 Socials:
-[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/itizzakir) [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/itizzakir) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/itizzakir) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/itizzakir) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/itizzakir) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:itizzakir@123) 
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" alt="" />
 
-<!-- Snake Game Repo View -->
-<div align="center">
-  <img src="https://profile-readme-generator.com/assets/snake.svg" alt="Snake animation" />
-</div>
+## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28" alt="wave"> About Me
 
+<table>
+<tr>
+<td width="62%" valign="top">
 
+**A passionate Java Full Stack Developer from India 🇮🇳**
 
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Thymeleaf](https://img.shields.io/badge/Thymeleaf-%23005C0F.svg?style=for-the-badge&logo=Thymeleaf&logoColor=white) ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white) ![Apache Tomcat](https://img.shields.io/badge/apache%20tomcat-%23F8DC75.svg?style=for-the-badge&logo=apache-tomcat&logoColor=black) ![Apache Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=Hibernate&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=itizzakir&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=itizzakir&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=itizzakir&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+| | |
+|---|---|
+| 🔭 **Working on** | Food Delivery App 🍔 |
+| 🌱 **Learning** | Java in depth ☕ |
+| 👯 **Collaborating on** | Food Delivery App |
+| 💬 **Ask me about** | Java · Spring Boot · React · MySQL |
+| 📫 **Reach me** | [itizzakir@gmail.com](mailto:itizzakir@gmail.com) |
+| 😄 **Call me** | Zaky |
+| ⚡ **Fun fact** | Programmers don't sleep; they just debug in their dreams 🌙💭 |
 
+> 🤔 *Curiosity is your greatest skill — keep it alive.*
+
+</td>
+<td width="38%" align="center">
+  <img src="https://raw.githubusercontent.com/SamirPaulb/SamirPaulb/main/assets/images/coding.gif" width="100%" alt="Coding animation" />
+</td>
+</tr>
+</table>
+
+```java
+public class ZakirHussain extends FullStackDeveloper {
+    String   role     = "Java Full Stack Developer";
+    String[] backend  = {"Java", "Spring Boot", "Hibernate", "MySQL", "Tomcat", "Maven"};
+    String[] frontend = {"React", "Redux", "JavaScript", "Tailwind CSS", "Bootstrap", "Thymeleaf"};
+    String[] tools    = {"Git", "AWS", "Node.js", "npm", "JWT"};
+    String   building = "Food Delivery App 🍔";
+
+    public void life() {
+        while (alive) { eat(); sleep(); code(); repeat(); }
+    }
+}
+```
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" alt="" />
+
+## 🛠️ Tech Stack
+
+<p align="center">
+  <img src="assets/stack.svg" alt="Animated tech stack" width="100%" />
+</p>
+
+<details open>
+<summary><b>☕ Backend</b></summary>
+<p align="center"><img src="https://skillicons.dev/icons?i=java,spring,hibernate,mysql,maven,tomcat&theme=dark" alt="Backend" /></p>
+</details>
+
+<details open>
+<summary><b>🎨 Frontend</b></summary>
+<p align="center"><img src="https://skillicons.dev/icons?i=html,css,js,react,redux,tailwind,bootstrap&theme=dark" alt="Frontend" /></p>
+</details>
+
+<details open>
+<summary><b>⚙️ Tools, Cloud &amp; Other Languages</b></summary>
+<p align="center"><img src="https://skillicons.dev/icons?i=git,github,aws,nodejs,npm,python,c&theme=dark" alt="Tools" /></p>
+</details>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Thymeleaf-005C0F?style=for-the-badge&logo=thymeleaf&logoColor=white" alt="Thymeleaf" />
+  <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" alt="JWT" />
+  <img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white" alt="React Router" />
+</p>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" alt="" />
+
+## 📊 GitHub Analytics
+
+<p align="center">
+  <img height="175" src="https://github-readme-stats.vercel.app/api?username=itizzakir&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=ED8B00&icon_color=6DB33F" alt="GitHub Stats" />
+  <img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=itizzakir&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=ED8B00" alt="Top Languages" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=itizzakir&theme=tokyonight&hide_border=true&background=0d1117&ring=ED8B00&fire=ED8B00&currStreakLabel=6DB33F" alt="GitHub Streak" />
+</p>
+
+<p align="center">
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=itizzakir&bg_color=0d1117&color=ffffff&line=ED8B00&point=6DB33F&area=true&hide_border=true&custom_title=Contribution%20Graph" alt="Contribution Graph" />
+</p>
+
+### 🐍 Contribution Snake
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/itizzakir/itizzakir/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/itizzakir/itizzakir/output/github-contribution-grid-snake.svg" />
+    <img alt="Contribution snake" src="https://raw.githubusercontent.com/itizzakir/itizzakir/output/github-contribution-grid-snake-dark.svg" width="100%" />
+  </picture>
+</p>
+
+### 🏆 Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=itizzakir&theme=radical&no-frame=true&no-bg=true&margin-w=6&row=1&column=7" alt="Trophies" />
+</p>
+
+### 🔝 Top Contributed Repos
+
+<p align="center">
+  <img src="https://github-contributor-stats.vercel.app/api?username=itizzakir&limit=5&theme=tokyonight&combine_all_yearly_contributions=true&hide_border=true" alt="Top Contributed Repos" />
+</p>
 
 ### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=itizzakir&limit=5&theme=dark&combine_all_yearly_contributions=true)
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Dev Quote" />
+</p>
 
----
-[![](https://visitcount.itsvg.in/api?id=itizzakir&icon=0&color=0)](https://visitcount.itsvg.in)
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" alt="" />
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## 🌐 Let's Connect
+
+<p align="center">
+  <a href="https://linkedin.com/in/itizzakir"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:itizzakir@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
+  <a href="https://x.com/itizzakir"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
+  <a href="https://instagram.com/itizzakir"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
+  <a href="https://facebook.com/itizzakir"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" /></a>
+  <a href="https://discord.gg/itizzakir"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1200&color=ED8B00&center=true&vCenter=true&width=520&lines=Thanks+for+stopping+by+%F0%9F%99%8F;Let's+build+something+awesome+together+%F0%9F%9A%80;Keep+coding%2C+keep+learning+%F0%9F%92%A1" alt="Thanks" />
+</p>
+
+<!-- ====================== FOOTER ====================== -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0077B5,50:6DB33F,100:ED8B00&height=120&section=footer&animation=twinkling" alt="" width="100%" />
+</p>
