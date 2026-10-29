@@ -49,28 +49,6 @@
 </tr>
 </table>
 
-```java
-public class ZakirHussain extends FullStackDeveloper {
-    String role = "Java Full Stack Developer";
-
-    String[] backend = {
-        "Java", "Spring Boot", "Hibernate",
-        "MySQL", "Tomcat", "Maven"
-    };
-    String[] frontend = {
-        "React", "Redux", "JavaScript",
-        "Tailwind CSS", "Bootstrap", "Thymeleaf"
-    };
-    String[] tools = {"Git", "AWS", "Node.js", "npm", "JWT"};
-
-    String building = "Food Delivery App 🍔";
-
-    void life() {
-        while (alive) { eat(); sleep(); code(); repeat(); }
-    }
-}
-```
-
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" alt="" />
 
 ## 🛠️ Tech Stack
