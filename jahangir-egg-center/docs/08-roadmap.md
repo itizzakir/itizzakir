@@ -4,20 +4,25 @@
 - Requirements, architecture, schema, auth plan, design.
 - Collect answers to [open questions](09-open-questions.md).
 
-## Phase 1: Website MVP (about 3–4 weeks part-time)
+## Phase 1: Website MVP (about 5–6 weeks part-time)
 | Week | Deliverable |
 |------|-------------|
 | 1 | Repo + Vite/React/TS/Tailwind setup, Supabase project, migrations, seed data, auth (Google + email OTP), profile completion |
 | 2 | Catalogue + Price display, product sheet, cart, checkout, `place_order` RPC, My Orders |
 | 3 | Admin panel: live order queue, status buttons, Price Board, customers, shop settings |
 | 4 | Notifications (in-app, web push, email), PWA install, Hindi/English, polish & animations, deploy |
+| 5 | **Khata:** dealers, purchases, payments/advances, customer udhaar, counter sales, payment capture on delivery |
+| 6 | Stock, reports (daily, profit, payables, receivables), statements as PDF / WhatsApp, opening balances entered |
+
+> Tip: the khata (weeks 5–6) works even without online customers, so we can build it **first**
+> if keeping accounts is the more urgent need. See open question 23.
 
 **Launch checklist:** test on 2–3 real Android phones and one iPhone, do a trial run with
 5 known customers, and put a QR code poster in the shop ("Order eggs online – scan me").
 
 ## Phase 2: Grow (after launch)
 - Phone OTP verification (MSG91/Twilio with DLT).
-- **Udhaar / credit ledger** for wholesale customers (balance, payments, statements).
+- Automatic WhatsApp/SMS due reminders (paid API). The manual WhatsApp button is free and in phase 1.
 - Delivery slots and a delivery-boy view (assigned orders, one-tap call/navigate).
 - Daily/monthly reports and CSV export.
 - WhatsApp order updates (optional, paid).

@@ -34,7 +34,8 @@ It should be easy enough for someone who has never shopped online.
 6. **Order success:** animated egg crack 🐣 then "Order placed!" and a live status timeline.
 7. **My Orders:** cards with coloured status chips. Tap for the timeline:
    `Placed ● ─ Accepted ● ─ Out for delivery ○ ─ Delivered ○`.
-8. **Profile:** name, phone, addresses, language, notification toggle, logout.
+8. **My Khata** (only for customers with an account in the khata): due amount, entries, statement.
+9. **Profile:** name, phone, addresses, language, notification toggle, logout.
 
 Bottom navigation: **Home · Cart (badge) · Orders · Profile**.
 
@@ -45,7 +46,8 @@ Bottom navigation: **Home · Cart (badge) · Orders · Profile**.
 2. **Price Board:** the editable table from doc 5.
 3. **Customers:** search, mark wholesale, verify phone, block.
 4. **Dashboard:** today's orders, eggs sold, revenue, and a 7-day chart.
-5. **Settings:** shop open/closed, minimum order, delivery charge, UPI ID, staff.
+5. **Khata:** dealers (*To pay* / *Advance*), customer udhaar due list, counter sale, stock, and reports, with a floating **+** for quick entries. See [doc 10](10-dealers-and-credit-ledger.md#107-admin-screens-added).
+6. **Settings:** shop open/closed, minimum order, delivery charge, UPI ID, staff.
 
 ## 6.4 Motion & "smoothness"
 

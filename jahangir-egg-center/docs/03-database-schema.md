@@ -16,6 +16,9 @@ shop_settings (single row)      price_history (audit of every price change)
 **`product_packs`** is the sellable item: *product × pack type*, e.g. "White Egg – Tray".
 It holds the current retail and wholesale price.
 
+> Dealer, purchase, udhaar and stock tables (`parties`, `purchases`, `ledger_entries`,
+> `counter_sales`, `stock_adjustments`) are described in [doc 10](10-dealers-and-credit-ledger.md#106-database-additions).
+
 ## 3.2 Tables (SQL draft)
 
 This will become `supabase/migrations/0001_init.sql`.

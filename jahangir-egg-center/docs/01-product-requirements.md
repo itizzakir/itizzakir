@@ -17,7 +17,8 @@ Success looks like:
 | `customer` (retail) | Households, small buyers. Usually orders trays. |
 | `customer` (wholesale) | Shops, hotels, bakeries, dhabas. Orders cartons. The owner can mark an account as wholesale, and wholesale accounts see wholesale prices. |
 | `staff` | Shop helpers who accept orders and update delivery status. |
-| `admin` | Owner (your father). Everything staff can do, plus prices, products, and staff management. |
+| `admin` | Owner (your father). Everything staff can do, plus prices, products, staff management, and **dealer accounts / purchase prices**. |
+| *Dealer* (not a login) | Supplier we buy eggs from. Exists only as a record in the khata. |
 
 ## 1.3 Selling units
 
@@ -90,11 +91,17 @@ The shop also gets a **live alert (sound + push) for every new order**.
 - [ ] Daily summary: orders, eggs sold, revenue.
 - [ ] Shop settings: open/closed toggle, minimum order, delivery charge, delivery area note.
 
+**Khata / accounts (details in [doc 10](10-dealers-and-credit-ledger.md))**
+- [ ] Dealers: record purchases (cartons × price, transport, damage), payments and advances; see *To pay* / *Advance* per dealer.
+- [ ] Customer udhaar: credit sales (online or counter), payments received, due list, credit limit, WhatsApp reminder.
+- [ ] Counter sales (cash / UPI / udhaar), so stock and reports are complete.
+- [ ] Stock: eggs in (purchases) − eggs out (sales) − damage.
+- [ ] Reports: daily summary, approximate profit, payables, receivables.
+
 ## 1.7 Out of scope for v1 (later phases)
 
 - Online payment gateway (Razorpay); start with Cash/UPI on delivery.
 - Delivery-boy app with live GPS tracking.
-- Credit (*udhaar*) ledger for wholesale customers. This is very useful, planned for v2.
 - Invoices / GST bills as PDF.
 - Native mobile apps on Play Store / App Store (phase 3).
 

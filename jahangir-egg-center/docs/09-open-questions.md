@@ -35,3 +35,13 @@ Short answers are fine. The ones marked ⭐ block development. The others can us
 ## Technical
 21. Shall I create a **separate GitHub repository** `jahangir-egg-center` for the code (recommended), instead of this profile repo?
 22. Do you already have a Supabase / Vercel account, or should the setup guide include creating them?
+
+## Dealers & udhaar (khata)
+23. ⭐ **What to build first:** the online ordering website, or the **khata (dealers + udhaar)**? The khata can be used by the shop from day one even before customers order online.
+24. ⭐ **How do dealers sell to you:** by carton only, or also by tray or per 100 eggs? Is the rate per carton or per egg/100 eggs (the NECC rate is quoted per 100 eggs)?
+25. Do dealers charge **transport / loading** separately? Do they give credit for **broken eggs**?
+26. ⭐ Should **staff** be able to see dealer purchase prices and profit, or only the owner (admin)? *(default: admin only)*
+27. Roughly how many **dealers** and how many **udhaar customers** do you have today? Do you want to enter their **current balances** as opening balances?
+28. Do udhaar customers need a **credit limit**? Should online customers be allowed to choose "Add to my khata" at checkout, or only the shop decides udhaar?
+29. Should udhaar customers see their own khata in the app ("My Khata")? *(default: yes)*
+30. Do you need **GST bills** for wholesale customers or from dealers?

@@ -104,4 +104,7 @@ plays a sound.
 
 - v1: **Cash on delivery** and **UPI on delivery** (customer scans the shop QR, staff marks it paid).
 - The checkout page can show the shop's UPI QR / UPI ID.
+- On **Delivered**, staff records how it was paid: **Cash / UPI / Udhaar / Part payment**.
+  Any unpaid amount goes to the customer's khata automatically ([doc 10](10-dealers-and-credit-ledger.md)).
+- Customers with a credit limit can choose **"Add to my khata"** at checkout (if the shop allows it).
 - Later: Razorpay (fee per transaction, no monthly cost) for prepaid orders.

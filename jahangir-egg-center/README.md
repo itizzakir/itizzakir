@@ -15,6 +15,7 @@ using the same backend.
 |-----|--------|
 | **Customer** | Sign up quickly (verified email / mobile), see today's egg price, order by **tray, half carton, or carton** (any quantity), pay cash/UPI on delivery, get notified when the order is **accepted** and **out for delivery**. |
 | **Shop owner / staff** | Update prices daily from a phone, see new orders live, accept/reject, mark *out for delivery* / *delivered*, mark wholesale customers. |
+| **Owner (khata)** | Record cartons bought from **dealers** (qty, price, advance paid, amount still to pay), keep **customer udhaar** (credit) with payments and WhatsApp reminders, and see stock and profit. |
 
 ## Documentation index
 
@@ -29,6 +30,7 @@ using the same backend.
 | 7 | [Free hosting & deployment](docs/07-free-hosting-and-deployment.md) | Supabase free tier, Vercel/Netlify, limits and how to stay inside them |
 | 8 | [Roadmap](docs/08-roadmap.md) | Phase-by-phase plan from website to mobile app |
 | 9 | [Open questions](docs/09-open-questions.md) | **Things we need from you before building** |
+| 10 | [Dealers & credit (udhaar) ledger](docs/10-dealers-and-credit-ledger.md) | Dealer purchases, advances & dues, customer udhaar, stock, profit reports |
 
 ## Tech stack at a glance
 
