@@ -27,7 +27,8 @@ This will become `supabase/migrations/0001_init.sql`.
 -- ---------- Enums ----------
 create type user_role    as enum ('customer', 'staff', 'admin');
 create type customer_type as enum ('retail', 'wholesale');
-create type order_status as enum ('placed','accepted','rejected','out_for_delivery','delivered','cancelled');
+create type order_status as enum ('placed','accepted','rejected','out_for_delivery','delivered','ready_for_pickup','picked_up','cancelled');
+create type fulfilment_type as enum ('delivery','pickup');
 create type payment_method as enum ('cash','upi');
 
 -- ---------- Profiles (1 row per auth user) ----------
@@ -39,7 +40,7 @@ create table profiles (
   role           user_role not null default 'customer',
   customer_type  customer_type not null default 'retail',
   is_blocked     boolean not null default false,
-  preferred_lang text not null default 'hi',  -- 'hi' | 'en'
+  preferred_lang text not null default 'en',  -- 'en' | 'hi'
   created_at     timestamptz not null default now()
 );
 
@@ -101,10 +102,11 @@ create table orders (
   order_no         bigint generated always as identity unique,   -- shown as #1042
   customer_id      uuid not null references profiles,
   status           order_status not null default 'placed',
-  address_snapshot jsonb not null,           -- copy of address at order time
+  fulfilment       fulfilment_type not null default 'delivery',
+  scheduled_for    date not null default current_date,  -- today, tomorrow or a chosen day
+  address_snapshot jsonb,                    -- copy of address at order time (null for pickup)
   customer_type    customer_type not null,   -- which price list was used
   subtotal         numeric(10,2) not null,
-  delivery_charge  numeric(10,2) not null default 0,
   total            numeric(10,2) not null,
   total_eggs       int not null,
   payment_method   payment_method not null default 'cash',
@@ -153,9 +155,14 @@ create table notifications (
 create table shop_settings (
   id                  int primary key default 1 check (id = 1),
   is_open             boolean not null default true,
-  min_order_value     numeric(10,2) not null default 0,
-  delivery_charge     numeric(10,2) not null default 0,
-  free_delivery_above numeric(10,2),
+  min_order_eggs      int not null default 105,       -- half carton
+  opens_at            time not null default '07:00',
+  closes_at           time not null default '21:00',
+  weekly_off          smallint,                       -- 0=Sun … 6=Sat, null = open all days
+  max_days_ahead      int not null default 7,         -- how far ahead orders can be booked
+  upi_id              text,
+  upi_qr_url          text,
+  shop_phone          text,
   closed_message      text,
   updated_at          timestamptz not null default now()
 );
@@ -223,13 +230,16 @@ or `phone_verified`. Only staff (or the service role) can change those.
 | `update_prices(changes jsonb)` | Staff only. Bulk-updates the Price Board in one transaction and writes `price_history`. |
 | `handle_new_user()` trigger | Creates the `profiles` row when someone signs up. |
 
-## 3.5 Seed data (example; confirm prices with the shop)
+## 3.5 Seed data (pack sizes confirmed; prices are set from the Price Board)
 
 ```sql
 insert into pack_types values
  ('tray',        'Tray (30)',          'ट्रे (30)',            30,  1),
  ('half_carton', 'Half Carton (105)',  'आधा कार्टन (105)',     105, 2),
- ('carton',      'Carton (210)',       'कार्टन (210)',         210, 3);
+ ('carton',      'Carton (210)',       'कार्टन (210)',         210, 3),
+ ('piece',       'Loose egg',          'खुला अंडा',             1,   4);   -- counter sales only
+
+insert into products (name_en, name_hi) values ('White Egg', 'सफ़ेद अंडा');
 
 insert into shop_settings (id) values (1);
 ```

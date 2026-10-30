@@ -24,20 +24,19 @@ Success looks like:
 
 Eggs are sold in **packs**. The owner sets each pack's size and price, so no unit is hard-coded.
 
-| Pack | Default size (to confirm) | Notes |
+| Pack | Size (confirmed) | Notes |
 |------|---------------------------|-------|
 | Tray | 30 eggs | Most common retail unit |
-| Half carton | 105 eggs (3½ trays) | Only if the shop actually sells half cartons |
+| Half carton | 105 eggs (3½ trays) | **Minimum online order** |
 | Carton | 210 eggs (7 trays) | Standard wholesale carton in India |
-| Loose eggs *(optional)* | 1 egg | Only if the shop wants to sell loose / by dozen |
+| Loose eggs | 1 egg | **Counter sales only**, not online |
 
-> ⚠️ The usual Indian carton is 210 eggs (7 trays). **Please confirm your shop's sizes** in
-> [Open questions](09-open-questions.md).
+> Confirmed by the owner. All decisions are listed in [doc 9](09-open-questions.md).
 
 The customer can mix packs in one order, for example **2 cartons + 1 half carton + 3 trays**.
 The cart shows the total egg count, e.g. "= 615 eggs".
 
-Products can also have **variants** later, such as white/brown/desi eggs.
+At launch we sell **white (layer) eggs only**. Products can have **variants** later, such as brown/desi eggs.
 Each variant has its own pack prices.
 
 ## 1.4 Pricing rules
@@ -49,13 +48,15 @@ Each variant has its own pack prices.
   price change never alters an existing order.
 - An optional "Today's rate" banner on the home page shows the last update time,
   e.g. *"Updated today 8:15 AM"*.
-- Optional settings: **minimum order value**, **delivery charge**, and
-  **free delivery above ₹X**.
+- **Minimum online order: half carton (105 eggs).**
+- **No separate delivery charge.** Delivery is included in the egg price.
 
 ## 1.5 Order life-cycle
 
 ```
  placed ──► accepted ──► out_for_delivery ──► delivered
+                 │
+                 └──► ready_for_pickup ──► picked_up   (pickup orders)
    │            │
    ├─► rejected (by shop, with reason)
    └─► cancelled (by customer, only while still "placed")
@@ -68,6 +69,8 @@ Each variant has its own pack prices.
 | `rejected` | Shop | ✅ Push + reason |
 | `out_for_delivery` | Shop | ✅ Push: "Your eggs are on the way 🛵" |
 | `delivered` | Shop | ✅ Push: "Delivered. Thank you!" |
+| `ready_for_pickup` | Shop | ✅ Push: "Your eggs are ready at the shop" |
+| `picked_up` | Shop | ✅ Push: "Thank you!" |
 | `cancelled` | Customer | Shop gets notified |
 
 The shop also gets a **live alert (sound + push) for every new order**.
@@ -78,18 +81,18 @@ The shop also gets a **live alert (sound + push) for every new order**.
 - [ ] Sign up / log in with **email OTP** or **Google** (verified). Phone number is required on the profile.
 - [ ] Home: today's prices, quick "Order again" button.
 - [ ] Product page: pick pack type and use the **+ / –** quantity stepper.
-- [ ] Cart: total eggs, subtotal, delivery charge, grand total.
-- [ ] Checkout: saved addresses (with landmark), delivery slot (optional), note, payment = **Cash / UPI on delivery**.
+- [ ] Cart: total eggs and total (no delivery charge). Blocks checkout below half carton.
+- [ ] Checkout: **Home delivery** (Muzaffarpur city, saved addresses with landmark) or **Pickup from shop**; **today, tomorrow, or a chosen date**; note; payment = **Cash / UPI on delivery/pickup**.
 - [ ] My Orders: live status timeline.
 - [ ] Notifications: push (when allowed) and an in-app notification list.
-- [ ] Hindi / English toggle.
+- [ ] English by default, with a Hindi toggle.
 
 **Shop (admin panel inside the same site at `/admin`)**
 - [ ] Price Board: edit all prices on one screen and save once.
 - [ ] Live order queue with sound alert: Accept / Reject / Out for delivery / Delivered.
 - [ ] Customer list: mark wholesale, block fake accounts.
 - [ ] Daily summary: orders, eggs sold, revenue.
-- [ ] Shop settings: open/closed toggle, minimum order, delivery charge, delivery area note.
+- [ ] Shop settings: open/closed toggle, **opening/closing time and weekly off**, how many days ahead orders can be booked, UPI ID/QR.
 
 **Khata / accounts (details in [doc 10](10-dealers-and-credit-ledger.md))**
 - [ ] Dealers: record purchases (cartons × price, transport, damage), payments and advances; see *To pay* / *Advance* per dealer.

@@ -29,7 +29,7 @@ using the same backend.
 | 6 | [UI / UX design](docs/06-ui-ux-design.md) | Screens, colours, animations, Hindi/English |
 | 7 | [Free hosting & deployment](docs/07-free-hosting-and-deployment.md) | Supabase free tier, Vercel/Netlify, limits and how to stay inside them |
 | 8 | [Roadmap](docs/08-roadmap.md) | Phase-by-phase plan from website to mobile app |
-| 9 | [Open questions](docs/09-open-questions.md) | **Things we need from you before building** |
+| 9 | [Decisions & open questions](docs/09-open-questions.md) | **Owner's answers** and the few details still needed |
 | 10 | [Dealers & credit (udhaar) ledger](docs/10-dealers-and-credit-ledger.md) | Dealer purchases, advances & dues, customer udhaar, stock, profit reports |
 
 ## Tech stack at a glance

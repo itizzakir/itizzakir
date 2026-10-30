@@ -60,9 +60,9 @@ Sorted by largest amount to pay. The top shows a total: *"Total to pay all deale
 | Dealer | Ravi Poultry |
 | Date | today (editable) |
 | Egg type | White |
-| Lines | 20 × **Carton** @ ₹1,150, 10 × **Tray** @ ₹168 |
-| Extra charges | Transport ₹400, Loading ₹100 |
-| Broken / short on arrival | 30 eggs (optional) |
+| Lines | 20 × **Carton** @ ₹1,150 (dealers quote **per carton**) |
+| Extra charges | Transport ₹400 (dealers charge transport **extra**) |
+| Broken / short on arrival | 30 eggs (optional; recorded as **stock damage**, since dealers don't credit breakage) |
 | Bill / challan no. + photo | optional, photo saved to Storage |
 | Paid now | ₹5,000 cash (optional, creates a payment entry too) |
 
@@ -96,7 +96,7 @@ which shows as *Advance*. You can still tag it "advance" for clarity in the list
 | Customer has an advance | The next order uses it automatically (balance goes down). |
 
 **Credit limit (optional):** for example ₹5,000 for Sharma Hotel. If a new order would push the due above the
-limit, staff sees a warning, and online checkout can block "Udhaar" and allow only cash/UPI.
+limit, staff sees a warning before recording it.
 
 **Due list:** all customers with dues, the biggest first, with **"days since oldest unpaid"**,
 e.g. *"₹1,500 · 12 days"*. The top shows *"Total market udhaar: ₹36,750"*.
@@ -280,7 +280,8 @@ alter table product_packs add column eggs_low_stock_alert int;  -- optional
 
 **Security (RLS):**
 - `parties`, `purchases`, `purchase_items`, `ledger_entries`, `counter_sales`, `stock_adjustments`:
-  **staff/admin only**. Dealer purchase prices are visible to **admin only** (see open question 26).
+  **staff/admin only**. Dealers, purchases, purchase prices and profit reports are **admin (owner) only**.
+  Staff can record customer udhaar, payments received and counter sales.
 - A customer can **read** their own `ledger_entries` when `parties.profile_id = auth.uid()` (for "My Khata").
 - No `update` or `delete` policies on `ledger_entries`. Changes go only through the RPCs above.
 
@@ -302,7 +303,15 @@ alter table product_packs add column eggs_low_stock_alert int;  -- optional
 - A number pad UI with recent parties at the top, so most entries take under 15 seconds.
 - Every entry shows **who added it and when**, which helps when staff also make entries.
 
-## 10.8 Getting started: moving from the paper khata
+## 10.8 Decisions
+
+- Dealer rate is **per carton**; transport is charged **extra**; broken eggs are **not** credited by dealers.
+- Udhaar is decided by the **shop only**. There's no udhaar option at online checkout.
+- Customers with an account **can see My Khata**.
+- Loose eggs are sold **at the counter only** (pack type `piece`).
+- **Build the khata first** (see [roadmap](08-roadmap.md)).
+
+## 10.9 Getting started: moving from the paper khata
 
 1. Add each dealer and customer with an **opening balance** (one `opening` entry on the start date).
 2. From that day, record everything in the app.

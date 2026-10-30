@@ -30,7 +30,7 @@ It should be easy enough for someone who has never shopped online.
 3. **Product sheet** (bottom sheet, slides up): segmented control **Tray | Half Carton | Carton**,
    big quantity stepper, live "= 210 eggs · ₹1,230".
 4. **Cart:** list of lines, egg count, subtotal, delivery, total, and a sticky **Place order** button.
-5. **Checkout:** address (saved, or add with landmark and optional map pin), payment Cash/UPI, note.
+5. **Checkout:** **Delivery / Pickup** toggle, address (saved, or add with landmark and optional map pin), **Today / Tomorrow / Pick a date** chips, payment Cash/UPI, note.
 6. **Order success:** animated egg crack 🐣 then "Order placed!" and a live status timeline.
 7. **My Orders:** cards with coloured status chips. Tap for the timeline:
    `Placed ● ─ Accepted ● ─ Out for delivery ○ ─ Delivered ○`.
@@ -61,6 +61,6 @@ Bottom navigation: **Home · Cart (badge) · Orders · Profile**.
 
 ## 6.5 Language & accessibility
 
-- **Hindi default** (switchable to English), with numbers shown as ₹1,230.
+- **English default** (switchable to Hindi), with numbers shown as ₹1,230.
 - Minimum tap target 44 px and font size ≥ 16 px.
 - Good colour contrast. Icons always have text labels.

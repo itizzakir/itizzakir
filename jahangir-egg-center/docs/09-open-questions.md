@@ -1,47 +1,57 @@
-# 9. Open Questions: please answer before we build
+# 9. Decisions & Open Questions
 
-Short answers are fine. The ones marked ⭐ block development. The others can use the default shown.
+## 9.1 Decisions (answered by the owner, Oct 2026)
 
-## Products & pricing
-1. ⭐ **Pack sizes:** Is your carton **210 eggs (7 trays)** and tray **30 eggs**? Do you sell **half cartons**, and how many eggs are in one? *(default: 30 / 105 / 210)*
-2. ⭐ **Egg types:** Only white (layer) eggs, or also **brown / desi / duck** eggs?
-3. Do you sell **loose eggs** (by piece or dozen) online, or only trays and cartons? *(default: trays & cartons only)*
-4. ⭐ **Wholesale vs retail:** Different prices for wholesale customers? Who decides who is wholesale, the shop or a minimum quantity (e.g. ≥ 1 carton gets the wholesale rate automatically)?
-5. Roughly how often do prices change? Daily? *(affects how prominently we show "updated at")*
+### Products & pricing
+| Topic | Decision |
+|-------|----------|
+| Pack sizes | **Tray = 30 eggs, Half carton = 105 eggs, Carton = 210 eggs** |
+| Egg types | **White (layer) eggs only** for now (schema still supports adding more later) |
+| Loose eggs | **Counter sales only** (by piece). Not sold online. |
+| Wholesale | **Shop marks** a customer as wholesale. Those customers always see wholesale prices. |
 
-## Delivery & orders
-6. ⭐ **Delivery area:** Only Muzaffarpur city / specific pincodes? A maximum distance?
-7. **Delivery charge** and **minimum order**? Free delivery above some amount?
-8. **Pickup from shop** as an option too? *(default: yes, "Self pickup")*
-9. **Shop timings:** Opening and closing hours, and weekly off? Should ordering stop when the shop is closed?
-10. Same-day delivery only, or can customers choose a delivery **time slot / date**?
-11. Who delivers: your own staff or helpers? Do they need their own login now or later?
+### Orders & delivery
+| Topic | Decision |
+|-------|----------|
+| Minimum online order | **Half carton (105 eggs)** |
+| Delivery charge | **None shown separately.** Delivery is included in the egg price. |
+| Delivery area | **Muzaffarpur city only** |
+| Pickup | **Yes.** Customer chooses *Home delivery* or *Pickup from shop*. |
+| When | **Same day**, or **book for the next day / a chosen date** |
+| Shop timings | **Owner sets them in the app** (open/close time, weekly off). Default 7 AM – 9 PM, all days. |
+| Payment | **Cash + UPI on delivery/pickup.** UPI ID / QR is shown in the app. No online gateway yet. |
+| GST bills | **Not needed.** Simple receipts only. |
 
-## Payments
-12. Cash on delivery + UPI on delivery for v1. OK? Do you want to show your **UPI ID / QR** in the app?
-13. Do wholesale customers buy on **credit (udhaar)** today? (We'd plan the ledger for phase 2.)
+### Accounts
+| Topic | Decision |
+|-------|----------|
+| Customer login | **Google + email OTP (free)**. Shop confirms the phone number by a call on the first order. SMS OTP later. |
+| Default language | **English** (Hindi toggle available) |
 
-## Accounts & verification
-14. ⭐ OK to start with **Google sign-in + email OTP (free)** plus a manual phone check on the first order, and add paid SMS OTP later? Or do you want SMS OTP from day one (about ₹0.15–0.50 per SMS + DLT registration)?
-15. How many **staff** will use the admin panel?
+### Khata (dealers & udhaar)
+| Topic | Decision |
+|-------|----------|
+| Build order | **Khata first**, online ordering after |
+| Dealer rate | **Per carton** |
+| Dealer extras | **Transport charged extra.** Dealers do **not** credit broken eggs, so breakage is our loss and is recorded as stock damage. |
+| Who sees dealer prices & profit | **Owner (admin) only** |
+| Udhaar control | **Shop decides only.** Customers can't choose udhaar online. |
+| My Khata for customers | **Yes.** Linked customers can see their dues. |
+| Opening balances | **Yes.** Enter current dealer and udhaar balances on day one (recommended). |
 
-## Branding & content
-16. Do you have a **logo**, shop photos, or preferred colours? *(default: yolk-yellow theme from doc 6)*
-17. Shop **phone / WhatsApp number** to show on the website?
-18. Default language: **Hindi** or **English**?
-19. Domain name: buy one (e.g. `jahangireggs.in`, about ₹800–1,000/year) or use the free `*.vercel.app` URL?
-20. Is there a Google Maps location for the shop we can link?
+### Branding, hosting & code
+| Topic | Decision |
+|-------|----------|
+| Logo & colours | **Designed by us:** yolk-yellow theme + simple egg logo (doc 6) |
+| Domain | **Free `*.vercel.app`** for now |
+| Code location | **New GitHub repo `jahangir-egg-center`** |
+| Supabase / Vercel | Owner **already has accounts** |
 
-## Technical
-21. Shall I create a **separate GitHub repository** `jahangir-egg-center` for the code (recommended), instead of this profile repo?
-22. Do you already have a Supabase / Vercel account, or should the setup guide include creating them?
+## 9.2 Still needed (small details, not blocking the start)
 
-## Dealers & udhaar (khata)
-23. ⭐ **What to build first:** the online ordering website, or the **khata (dealers + udhaar)**? The khata can be used by the shop from day one even before customers order online.
-24. ⭐ **How do dealers sell to you:** by carton only, or also by tray or per 100 eggs? Is the rate per carton or per egg/100 eggs (the NECC rate is quoted per 100 eggs)?
-25. Do dealers charge **transport / loading** separately? Do they give credit for **broken eggs**?
-26. ⭐ Should **staff** be able to see dealer purchase prices and profit, or only the owner (admin)? *(default: admin only)*
-27. Roughly how many **dealers** and how many **udhaar customers** do you have today? Do you want to enter their **current balances** as opening balances?
-28. Do udhaar customers need a **credit limit**? Should online customers be allowed to choose "Add to my khata" at checkout, or only the shop decides udhaar?
-29. Should udhaar customers see their own khata in the app ("My Khata")? *(default: yes)*
-30. Do you need **GST bills** for wholesale customers or from dealers?
+1. Shop **phone / WhatsApp number** to show in the app and in WhatsApp reminders.
+2. **UPI ID** (and a QR image) for payments.
+3. **Google Maps link** of the shop.
+4. Roughly how many **dealers** and **udhaar customers** you have today (for testing with realistic data).
+5. How many **staff** will use the admin panel, and their emails (to give them the `staff` role).
+6. The new GitHub repo `jahangir-egg-center`: you create it and give access, or I create it if my access allows.

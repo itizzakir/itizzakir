@@ -1,21 +1,25 @@
 # 8. Roadmap
 
-## Phase 0: Documentation & setup ✅ (this)
+## Phase 0: Documentation & decisions ✅
 - Requirements, architecture, schema, auth plan, design.
 - Collect answers to [open questions](09-open-questions.md).
 
-## Phase 1: Website MVP (about 5–6 weeks part-time)
+## Phase 1A: Khata (built first, about 2–3 weeks part-time)
 | Week | Deliverable |
 |------|-------------|
-| 1 | Repo + Vite/React/TS/Tailwind setup, Supabase project, migrations, seed data, auth (Google + email OTP), profile completion |
-| 2 | Catalogue + Price display, product sheet, cart, checkout, `place_order` RPC, My Orders |
-| 3 | Admin panel: live order queue, status buttons, Price Board, customers, shop settings |
-| 4 | Notifications (in-app, web push, email), PWA install, Hindi/English, polish & animations, deploy |
-| 5 | **Khata:** dealers, purchases, payments/advances, customer udhaar, counter sales, payment capture on delivery |
-| 6 | Stock, reports (daily, profit, payables, receivables), statements as PDF / WhatsApp, opening balances entered |
+| 1 | New repo `jahangir-egg-center`, Vite/React/TS/Tailwind setup, Supabase project + migrations, staff/admin login, dealers & customers (parties), opening balances |
+| 2 | Dealer purchases (per carton + transport), payments/advances, customer udhaar, payments received, counter sales (incl. loose eggs), WhatsApp reminder |
+| 3 | Stock + damage entries, reports (daily, profit, payables, receivables), statements as PDF / WhatsApp, install as PWA on the shop phone |
 
-> Tip: the khata (weeks 5–6) works even without online customers, so we can build it **first**
-> if keeping accounts is the more urgent need. See open question 23.
+**Go-live:** enter opening balances, run the paper khata in parallel for one week, and compare daily totals.
+
+## Phase 1B: Online ordering website (about 3–4 weeks part-time)
+| Week | Deliverable |
+|------|-------------|
+| 1 | Customer auth (Google + email OTP), profile completion, catalogue + Price Board |
+| 2 | Product sheet, cart (minimum half carton), checkout (delivery/pickup, today/tomorrow/date), `place_order`, My Orders, My Khata |
+| 3 | Admin live order queue grouped by date, status buttons, payment capture on delivery (cash/UPI/udhaar → khata) |
+| 4 | Notifications (in-app, web push, email), Hindi toggle, polish & animations, deploy |
 
 **Launch checklist:** test on 2–3 real Android phones and one iPhone, do a trial run with
 5 known customers, and put a QR code poster in the shop ("Order eggs online – scan me").

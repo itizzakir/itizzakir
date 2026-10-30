@@ -54,6 +54,8 @@ Allowed transitions are enforced in `set_order_status()`:
 | placed | accepted, rejected, cancelled (customer) |
 | accepted | out_for_delivery, cancelled (staff only) |
 | out_for_delivery | delivered |
+| accepted (pickup order) | ready_for_pickup |
+| ready_for_pickup | picked_up |
 
 The admin order card shows **one big button for the next step**
 (e.g. "Accept" → "Out for delivery" → "Delivered"). That makes it hard to make mistakes.
@@ -102,9 +104,11 @@ plays a sound.
 
 ## 5.5 Payment
 
-- v1: **Cash on delivery** and **UPI on delivery** (customer scans the shop QR, staff marks it paid).
+- v1: **Cash** and **UPI** on delivery or at pickup (customer scans the shop QR, staff marks it paid).
+- **No delivery charge.** Delivery is included in the egg price. Minimum online order is half carton (105 eggs).
+- Orders are for **today, tomorrow, or a chosen date** (up to `max_days_ahead`). The admin queue groups orders by date.
 - The checkout page can show the shop's UPI QR / UPI ID.
 - On **Delivered**, staff records how it was paid: **Cash / UPI / Udhaar / Part payment**.
   Any unpaid amount goes to the customer's khata automatically ([doc 10](10-dealers-and-credit-ledger.md)).
-- Customers with a credit limit can choose **"Add to my khata"** at checkout (if the shop allows it).
+- Customers **cannot** choose udhaar online. Only the shop decides it, when marking delivered/picked up.
 - Later: Razorpay (fee per transaction, no monthly cost) for prepaid orders.
